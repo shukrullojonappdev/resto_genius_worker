@@ -1,15 +1,13 @@
 <template>
   <div>
-    <form class="q-mx-md q-mb-lg">
+    <form class="q-mx-md q-mb-lg column">
       <q-input class="q-mb-md" label="Email" v-model="loginFormData.email" />
       <q-input
         class="q-mb-lg"
         label="Password"
         v-model="loginFormData.password"
       />
-      <router-link to="/main">
-        <q-btn class="q-py-sm" color="primary"> Login </q-btn>
-      </router-link>
+      <q-btn to="/main" class="q-py-sm" color="primary">Kirish</q-btn>
     </form>
   </div>
 </template>
@@ -22,8 +20,4 @@ const loginFormData = ref({
 });
 </script>
 
-<style scoped lang="scss">
-button {
-  width: 100%;
-}
-</style>
+<style scoped lang="scss"></style>

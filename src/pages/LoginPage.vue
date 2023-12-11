@@ -1,7 +1,7 @@
 <template>
   <q-page class="column box">
     <div class="col column justify-center box-title">
-      <p class="text-h3 q-ml-md">Sign in</p>
+      <p class="text-h3 q-ml-md">Tizimga kirish</p>
     </div>
     <div class="col column justify-center box-form">
       <LoginFormComponent></LoginFormComponent>
